@@ -83,8 +83,7 @@ function gotResults(error, results) {
       fill(255 - br);
       textSize(8);
       textAlign(CENTER, CENTER);
-      text(nf(0.5, 1, 2), i * resolution + resolution / 2, j * resolution + resolution / 2)
-      text(nf(results[index][0].value, 1, 2), i * resolution + resolution / 2, j * resolution + resolution / 2)
+      text(nf(results[index][0].value, 1, 2), i * resolution + resolution / 2, j * resolution + resolution / 2);
       index++;
     }
   }
